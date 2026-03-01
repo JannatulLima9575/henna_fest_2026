@@ -1,6 +1,6 @@
 const GoldDivider = () => {
   return (
-    <div className="flex justify-center py-10 bg-white">
+    <div className="flex justify-center py-10 bg-[#f8f5ef]">
       <svg
         width="200"
         height="20"
