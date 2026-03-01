@@ -3,17 +3,27 @@
 import { motion } from "framer-motion";
 import IslamicPatternBg from "./IslamicPatternBg";
 import GlowParticles from "./GlowParticles";
+import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center text-center px-6 relative overflow-hidden bg-gradient-to-br from-rose-100 via-pink-50 to-amber-100">
-      
+    <section className="min-h-[90vh] md:min-h-screen flex items-center justify-center text-center px-4 md:px-6 relative overflow-hidden">
+      {/* Background Image */}
+      <div className="absolute inset-0">
+        <Image
+          src="/hero.jpg"
+          alt="Henna"
+          fill
+          priority
+          className="absolute inset-0 object-cover"
+        />
+      </div>
+
+      {/* Dark Overlay */}
+      <div className="absolute inset-0 bg-black/60" />
+
       <IslamicPatternBg />
       <GlowParticles />
-
-      {/* Glow Background Circles */}
-      <div className="absolute w-[500px] h-[500px] bg-rose-300 rounded-full blur-3xl opacity-30 top-[-100px] left-[-100px]" />
-      <div className="absolute w-[400px] h-[400px] bg-amber-300 rounded-full blur-3xl opacity-30 bottom-[-100px] right-[-100px]" />
 
       <motion.div
         initial={{ opacity: 0, y: 40 }}
@@ -21,36 +31,113 @@ const Hero = () => {
         transition={{ duration: 1 }}
         className="relative z-10 max-w-3xl"
       >
-        {/* 🔥 Gold Gradient Animated Title */}
-        <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-amber-500 via-yellow-400 to-amber-600 bg-clip-text text-transparent drop-shadow-lg">
-          Noor-E-Eid Henna Fest 2026
+        {/* Title */}
+        <h1
+          className="
+          text-3xl sm:text-4xl md:text-6xl lg:text-7xl
+          font-serif font-bold mb-4
+          text-[#FFD700]
+          drop-shadow-[0_5px_15px_rgba(0,0,0,0.9)]
+          "
+        >
+          Noor-E-Eid Henna Fest
+          <br />2<span className="inline-block mx-0.5 text-[#FFD700]">🌙</span>26
         </h1>
 
-        <p className="text-lg md:text-2xl text-stone-700 mb-8">
-          Celebrate Eid with Beautiful Mehendi, Festive Decor & Magical Vibes 🤎🌿
+        {/* Subtitle */}
+        <p
+          className="
+        text-sm
+        sm:text-lg
+        md:text-2xl
+        text-white
+        mb-6
+        md:mb-8
+        opacity-95
+        "
+        >
+          Celebrate Eid with Beautiful Mehendi, Festive Decor & Magical Vibes 🌿
         </p>
 
-        {/* Glass Card */}
-        <div className="bg-white/60 backdrop-blur-xl shadow-2xl rounded-3xl px-8 py-6 mb-8 border border-white/40">
-          <p className="text-lg font-semibold">📅 17–19 March 2026</p>
-          <p className="text-lg">⏰ 11 AM – 11 PM</p>
-          <p className="text-lg">📍 Red Beauty Salon, Barudkhana</p>
+        {/* Premium Glass Card */}
+        <div
+          className="
+  bg-white/85
+  backdrop-blur-2xl
+  shadow-[0_10px_40px_rgba(0,0,0,0.25)]
+  rounded-2xl md:rounded-3xl
+  px-6 md:px-10
+  py-5 md:py-7
+  mb-6 md:mb-8
+  border border-white/30
+  max-w-md
+  mx-auto
+  hover:scale-[1.02]
+  transition duration-300
+"
+        >
+          <div className="space-y-2 md:space-y-3">
+            <div className="flex items-center justify-center gap-2 text-gray-800 font-semibold text-sm md:text-lg">
+              <span className="text-lg">📅</span>
+              <span>17–19 March 2026</span>
+            </div>
+
+            <div className="flex items-center justify-center gap-2 text-gray-700 text-sm md:text-lg">
+              <span className="text-lg">⏰</span>
+              <span>11 AM – 11 PM</span>
+            </div>
+
+            <div className="flex items-center justify-center gap-2 text-gray-700 text-sm md:text-lg">
+              <span className="text-lg">📍</span>
+              <span>Red Beauty Salon, Barudkhana</span>
+            </div>
+          </div>
         </div>
 
-        {/* 🔥 Shimmer CTA Button */}
+        {/* Button */}
         <motion.a
-          whileHover={{ scale: 1.07 }}
+          whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
           href="https://facebook.com/events/s/noor-e-eid-henna-fest-2026/1550464442732111/"
           target="_blank"
-          className="relative inline-block px-12 py-4 rounded-full text-lg font-semibold text-white overflow-hidden group bg-gradient-to-r from-rose-600 to-rose-700 shadow-xl"
+          className="
+          relative
+          inline-block
+          px-8
+          md:px-12
+          py-3
+          md:py-4
+          rounded-full
+          text-sm
+          md:text-lg
+          font-semibold
+          text-white
+          overflow-hidden
+          group
+          bg-gradient-to-r
+          from-[#3a5a40]
+          to-[#344e41]
+          shadow-xl
+          "
         >
           <span className="relative z-10">Book Your Slot Now ✨</span>
 
-          {/* Shimmer Effect */}
-          <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/40 to-transparent translate-x-[-100%] group-hover:translate-x-[100%] transition duration-1000 ease-in-out" />
+          <span
+            className="
+          absolute
+          inset-0
+          bg-gradient-to-r
+          from-transparent
+          via-white/40
+          to-transparent
+          translate-x-[-100%]
+          group-hover:translate-x-[100%]
+          transition
+          duration-1000
+          ease-in-out
+          "
+          />
         </motion.a>
-
       </motion.div>
     </section>
   );
