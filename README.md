@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ✨ Noor-E-Eid Henna Fest 2026 ✨
 
-## Getting Started
+Assalamualaikum Everyone 🌙🤍  
 
-First, run the development server:
+Ramadan is the most beloved month for all of us… and after Ramadan comes the happiest day — Eid ✨  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Eid means new dress 👗  
+Matching jewelry ✨  
+Perfect hairstyle 💇🏻‍♀️  
+Beautiful makeup 💄  
+And of course… Mehendi 🤎🌿  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Many sisters don’t get enough time before Eid due to family responsibilities.  
+Some cannot apply beautiful designs themselves 😅  
+Some can apply on one hand but don’t have anyone to apply on the other hand…  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+💫 That’s why we are bringing a special solution for you!
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🌙 About The Event
 
-To learn more about Next.js, take a look at the following resources:
+✨ Noor-E-Eid Henna Fest 2026 ✨  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Organized by: Promy Khan & RED Beauty & Salon  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+A 3-day grand Eid Henna Festival to celebrate beauty, tradition, and the true Eid vibe.
 
-## Deploy on Vercel
+🔗 Event Link:  
+https://facebook.com/events/s/noor-e-eid-henna-fest-2026/1550464442732111/
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📅 Event Details
+
+- **Date:** 17, 18 & 19 March 2026  
+- **Time:** 11:00 AM – 11:00 PM  
+- **Occasion:** 28, 29 & 30 Ramadan (In Sha Allah 🌙)  
+- **Venue:** Red Beauty Salon (Barudkhana)
+
+---
+
+## 💛 What You Will Get
+
+🤎 Indian Mehendi Designs  
+🤎 Pakistani Mehendi Designs  
+🤎 Traditional & Simple Designs  
+🤎 Party Style Mehendi  
+
+🌿 Organic & Instant Henna Options  
+👩‍👧 Separate Arrangements for Adults & Kids  
+💰 Affordable & Reasonable Pricing  
+
+---
+
+## 📸 Special Attraction
+
+✨ Beautiful Eid-Themed Decoration  
+✨ Photo & Reel Friendly Setup  
+✨ Full Eid Vibe Experience  
+
+Our goal is to give you a proper Eid celebration feeling before Eid 🤍  
+
+---
+
+## 🤝 Sponsors
+
+✨ Red Beauty Salon  
+✨ Night Appetite  
+
+---
+
+## 🛠 Tech Stack
+
+This project is built using:
+
+- Next.js  
+- TypeScript  
+- Tailwind CSS
