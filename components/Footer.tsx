@@ -3,7 +3,6 @@ import { FaHeart } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="
-      mt-16
       py-10
       px-4 md:px-6
       text-center

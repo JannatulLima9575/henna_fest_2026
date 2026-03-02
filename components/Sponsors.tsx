@@ -3,7 +3,7 @@ const Sponsors = () => {
   const sponsors = [
     { name: "Promy Khan", link: "https://www.facebook.com/promykhann" },
     { name: "Red Beauty Salon", link: "https://www.facebook.com/p/RED-Beauty-Salon-61571536495861/" },
-    { name: "Night Appetite", link: "#" }
+    { name: "Night Appetite", link: "https://www.facebook.com/night.appetite.sylhet/" }
   ];
 
   return (
